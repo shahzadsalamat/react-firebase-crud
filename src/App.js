@@ -1,11 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
+import CreateUserForm from './components/createUserForm.js';
+import UsersList from './components/usersList.js';
+import './css/index.css';
 
-function App() {
-  return (
-    <div>
-    <p>hello world</p>
-    </div>
-  );
+
+class App extends Component {
+
+  render() {
+
+      return (
+          <div className='wrapper'>
+              <CreateUserForm />
+              <UsersList />
+          </div>
+      );
+  }
 }
 
 export default App;
