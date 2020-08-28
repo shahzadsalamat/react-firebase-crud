@@ -34,7 +34,7 @@ class CreateUserForm extends Component {
                         type='text'
                         name='username'
                         placeholder='enter your Name'
-                        value={this.state.user.name}
+                        value={this.state.user.username}
                         onChange={this.handleUserFormChange}
                     ></input>
                     <input
