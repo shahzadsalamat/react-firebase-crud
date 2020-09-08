@@ -31,10 +31,8 @@ class App extends Component {
     }
 
     editUserSubmit = (editedUserData, userId) => {
-        firebaseDB.database().ref().child('user/' + userId).set(editedUserData)
-
-        console.log('dwhich user is being edited' + JSON.stringify(editedUserData.firstName));
-        console.log('dwhich user id' + JSON.stringify(userId));
+        firebaseDB.database().ref().child('user/' + userId).set(editedUserData);
+       // console.log('user is being edited' + JSON.stringify(editedUserData.firstName));
     };
 
     deleteUser = (deletedUser) => {

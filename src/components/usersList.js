@@ -26,7 +26,7 @@ class UsersList extends Component {
     };
 
     editUserSubmit = (editedUserData) => {
-        this.props.editUserSubmit(editedUserData);
+        this.props.editUserSubmit(editedUserData, this.props.user.id);
         this.setState({
             editMode: false
         });

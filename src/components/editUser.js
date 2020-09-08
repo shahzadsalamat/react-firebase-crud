@@ -19,7 +19,7 @@ class EditUser extends Component {
     handleEditUserSubmit = () => {
         const editedUser = this.state.editUserData;
         this.props.editUserSubmit(editedUser);
-        console.log('edituser' + JSON.stringify(editedUser));
+     //   console.log('editeduser' + JSON.stringify(editedUser));
     };
 
     handleEditUserChange = (e) => {
