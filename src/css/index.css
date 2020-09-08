@@ -23,7 +23,6 @@ body {
   margin-left: 20px;
 }
 
-
 .bg-red {
   background-color: red;
 }
@@ -36,15 +35,15 @@ body {
   background-color: green;
 }
 
-. color-white {
+.color-white {
  color: white
 }
 
-. color-black {
+.color-black {
   color: black
  }
 
-/**colors***/
+/**colors end***/
 
 .form-button {
   line-height: 25px;
@@ -59,7 +58,7 @@ background-color: #322396;
 color: black;
 }
 
-/**table***/
+/**table start***/
 
 .div-table {
     display: table;         

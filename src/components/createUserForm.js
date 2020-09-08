@@ -5,8 +5,11 @@ class CreateUserForm extends Component {
         super(props);
         this.state = {
             user: {
+                username: '',
+                email: ''
             }
         }
+        this.intialState = this.state
     }
 
     handleUserFormChange = (e) => {
@@ -20,12 +23,11 @@ class CreateUserForm extends Component {
     }
 
     handleCreateUserSubmit = (newUserData) => {
-     //   console.log('newUserData' + JSON.stringify(newUserData));
         this.props.addNewUser(newUserData);
+        this.setState(this.intialState);
     }
 
     render() {
-
         return (
             <div>
                 <form>
