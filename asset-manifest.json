@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-firebase-crud/static/css/main.977a3678.chunk.css",
+    "main.js": "/react-firebase-crud/static/js/main.c4f04be5.chunk.js",
+    "main.js.map": "/react-firebase-crud/static/js/main.c4f04be5.chunk.js.map",
+    "runtime-main.js": "/react-firebase-crud/static/js/runtime-main.a93bcabd.js",
+    "runtime-main.js.map": "/react-firebase-crud/static/js/runtime-main.a93bcabd.js.map",
+    "static/js/2.5b424a52.chunk.js": "/react-firebase-crud/static/js/2.5b424a52.chunk.js",
+    "static/js/2.5b424a52.chunk.js.map": "/react-firebase-crud/static/js/2.5b424a52.chunk.js.map",
+    "index.html": "/react-firebase-crud/index.html",
+    "precache-manifest.ef6fbe7f3bf2df1cc6823c6f43b4839e.js": "/react-firebase-crud/precache-manifest.ef6fbe7f3bf2df1cc6823c6f43b4839e.js",
+    "service-worker.js": "/react-firebase-crud/service-worker.js",
+    "static/css/main.977a3678.chunk.css.map": "/react-firebase-crud/static/css/main.977a3678.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a93bcabd.js",
+    "static/js/2.5b424a52.chunk.js",
+    "static/css/main.977a3678.chunk.css",
+    "static/js/main.c4f04be5.chunk.js"
+  ]
+}
